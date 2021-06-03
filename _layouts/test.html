@@ -1,0 +1,12 @@
+---
+layout: default
+---
+
+<form method="POST">
+  {% for question in questions %}
+  <div class="form-check form-switch">
+    <input class="form-check-input" type="checkbox" id="question{{ question[0] }}">
+    <label class="form-check-label" for="question{{ question[0] }}">{{ question[1] }}</label>
+  </div>
+  {% endfor %}
+</form>
