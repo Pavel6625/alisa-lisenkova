@@ -1,3 +1,10 @@
+---
+permalink: /triangle/9
+title: Эпиграф – Выход из треугольника
+---
+{% assign navigation  = site.data.triangle_navigation %}
+{% include book.html %}
+
 *Как бы мы себя не коверкали,  
 Пожиная познанья плоды,  
 Мы всегда отражаемся в зеркале  

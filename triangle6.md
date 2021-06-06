@@ -1,3 +1,10 @@
+---
+permalink: /triangle/6
+title: Ришикеш – Выход из треугольника
+---
+{% assign navigation  = site.data.triangle_navigation %}
+{% include book.html %}
+
 10:00. Йога.  
 Я занимаюсь в благоухающем саду, я не могу теперь курить, просто не могу сейчас с собой это делать.
 

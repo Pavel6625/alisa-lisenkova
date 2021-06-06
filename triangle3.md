@@ -1,3 +1,10 @@
+---
+permalink: /triangle/3
+title: В Рождество все немного волхвы – Выход из треугольника
+---
+{% assign navigation  = site.data.triangle_navigation %}
+{% include book.html %}
+
 В Рождество все немного волхвы.  
 В продовольственных слякоть и давка.  
 Из-за банки кофейной халвы  

@@ -1,4 +1,9 @@
-## Вступление
+---
+permalink: /transition/0
+title: Вступление – Переход
+---
+{% assign navigation  = site.data.transition_navigation %}
+{% include book.html %}
 
 *24.03.2020*
 

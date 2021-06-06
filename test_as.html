@@ -1,5 +1,8 @@
 ---
-layout: test
-title: Тест на сексуальную зависимость
-permalink: ./tests/as
+layout: default
+permalink: /tests/as
 ---
+
+{% assign questions = site.data.test_as %}
+
+{% include test.html title = 'Тест на сексуальную зависимость' %}

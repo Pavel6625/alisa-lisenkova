@@ -1,3 +1,10 @@
+---
+permalink: /triangle/4
+title: Желания мои – Священный Храм – Выход из треугольника
+---
+{% assign navigation  = site.data.triangle_navigation %}
+{% include book.html %}
+
 Желания мои – Священный Храм.  
 Порой они на расстоянии шага,  
 Но есть и те, что, вопреки мольбам,  

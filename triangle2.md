@@ -1,8 +1,9 @@
 ---
-layout: book
-permalink: ./triangle/2
+permalink: /triangle/2
 title: Не уходи из сна моего – Выход из треугольника
 ---
+{% assign navigation  = site.data.triangle_navigation %}
+{% include book.html %}
 
 *Не уходи из сна моего,  
 когда ты так хорошо улыбаешься,  

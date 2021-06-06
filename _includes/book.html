@@ -1,12 +1,7 @@
----
-layout: default
----
-
 <ul class="nav flex-column">
-  {% for item in site.data.triangle_navigation %}
+  {% for item in navigation %}
   <li class="nav-item">
     <a class="nav-link {% if page.url == item.link %}active" aria-current="page"{% else %}"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
   </li>
+  {% endfor %}
 </ul>
-
-{{ content }}
