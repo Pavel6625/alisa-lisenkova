@@ -1,0 +1,12 @@
+- name: Вступление
+  link: /transition/0
+- name: Эпизод 1
+  link: /transition/1
+- name: Эпизод 2
+  link: /transition/2
+- name: Эпизод 3
+  link: /transition/3
+- name: Эпизод 4
+  link: /transition/4
+- name: Эпизод 5
+  link: /transition/5

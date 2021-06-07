@@ -2,3 +2,22 @@
 ---
 
 @import "{{ site.theme }}";
+
+.main-content input:first-child {
+    margin-top: revert;
+}
+
+.btn {
+    color: black;
+    background-color: skyblue;
+    margin-top: 1rem;
+}
+
+.btn:hover {
+    color: white;
+}
+
+.form-check-input:checked {
+    background-color: skyblue;
+    border-color: skyblue;
+}

@@ -9,3 +9,7 @@
 - title: Тест на зависимость от работы
   action: aw
   count: 10
+
+- title: Тест на созависимость
+  action: coda
+  count: 14

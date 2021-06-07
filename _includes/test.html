@@ -2,6 +2,8 @@
 
 <h2>{{ test.title }}</h2>
 
+<p>Ваши ответы никуда не записываются и не передаются.</p>
+
 <form action="/info/{{ test.action }}">
   {% for question in questions %}
   <div class="form-check form-switch">
@@ -9,7 +11,7 @@
     <label class="form-check-label" for="question{{ question.id }}">{{ question.text }}</label>
   </div>
   {% endfor %}
-  <button type="submit" class="btn btn-primary">Отправить</button>
+  <button type="submit" class="btn">Отправить</button>
 </form>
 
 <script>
