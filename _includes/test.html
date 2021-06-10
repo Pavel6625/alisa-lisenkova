@@ -3,6 +3,7 @@
 <h2>{{ test.title }}</h2>
 
 <p>Ваши ответы никуда не записываются и не передаются.</p>
+<p>Отметьте то, что считаете верным про себя.</p>
 
 <form action="/info/{{ test.action }}">
   {% for question in questions %}
@@ -27,7 +28,6 @@
     if (count > parseInt(page_count)) {
       return;
     } else {
-      event.preventDefault();
       alert("Всё нормально у тебя, не парься!");
     }
   });

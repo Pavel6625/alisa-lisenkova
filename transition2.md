@@ -1,4 +1,9 @@
-Эпизод 2
+---
+permalink: /transition/2
+title: Эпизод 2 – Переход
+---
+{% assign navigation  = site.data.transition_navigation %}
+{% include book.html %}
 
 *31.03.2020*
 
