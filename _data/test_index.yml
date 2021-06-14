@@ -1,31 +1,31 @@
 - title: Тест на сексуальную зависимость
   action: as
-  count: 10
+  community: Анонимные Сексоголики
 
 - title: Тест на зависимость от отношений и любви
   action: laa
-  count: 20
+  community: ЛАА
 
 - title: Тест на зависимость от работы
   action: aw
-  count: 10
+  community: Анонимные Трудоголики
 
 - title: Тест на созависимость
   action: coda
-  count: 14
+  community: CoDa
 
 - title: Тест на пищевую зависимость
   action: af
-  count: 7
+  community: Анонимные Переедающие
 
 - title: Тест на игровую зависимость
   action: ag
-  count: 10
+  community: ЛАА
 
 - title: Тест на синдром последствий воспитания в дисфункциональной семье
   action: vda
-  count: 10
+  community: ВДА
 
-- title: Тест АДА
+- title: Тест на наличие последствий насилия
   action: ada
-  count: 5
+  community: АДА
