@@ -4,7 +4,7 @@
 
 <p>Твои ответы никуда не записываются и не передаются.</p>
 <p>Отметь то, что считаешь верным про себя.</p>
-<p>Тест является собственностью сообщества "{{ test.community }}"</p>
+<p>Тест является собственностью сообщества "{{ test.community }}".</p>
 
 <form action="/info/{{ test.action }}">
   {% for question in questions %}
@@ -13,6 +13,7 @@
     <label class="form-check-label" for="question{{ question.id }}">{{ question.text }}</label>
   </div>
   {% endfor %}
+  <input type="hidden" name="count" value="0">
   <button type="submit" class="btn">Отправить</button>
 </form>
 
@@ -26,6 +27,7 @@
           count++;
       }
     }
+    $("input[name=count]").val(count);
     if (count > 3) {
       return;
     } else {

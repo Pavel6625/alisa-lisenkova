@@ -15,10 +15,15 @@
 
 .btn:hover {
     color: white;
-    background-color: blue;
+    background-color: #1e6bb8;
 }
 
 .form-check-input:checked {
     background-color: skyblue;
     border-color: skyblue;
+}
+
+.test-results {
+    font-style: italic;
+    display: none;
 }
