@@ -20,3 +20,17 @@ permalink: community_contacts
 [АКИ – Анонимные Компьютерные Игроки](https://www.cgaa.info/ru/cgaa-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9/)
 
 [И-АНОН – Родственники игроков](http://gam-anon.ru/)
+
+[АП – Анонимные Переедающие](https://overeaters.ru/)
+
+[АС – Анонимных Сексоголиков](https://sa12.org/)
+
+[АТ – Анонимные Трудоголики](https://workaholics-anonymous.ru/)
+
+[LAA – Анонимные Любовнозависимые](http://laarus.ru/)
+
+[CoDa – Анонимные Созависимые](https://www.coda.org.ru/)
+
+[Сообщество ВДА в Москве](https://vdamoscow.ru/)
+
+[Анонимные Жертвы Насилия в Санкт-Петербурге](http://abusedanonymous.tilda.ws/)
