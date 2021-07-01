@@ -20,7 +20,7 @@ title: Помощь анонимным сексоголикам
  
 Если ты хотя бы отчасти признаёшь данную проблему, при желании ты можешь познакомиться с возможными путями решений.
 
-[Пути решения](/solutions/as)
+<a href="/solutions/as" class="orange-link">Пути решения</a>
 
 <script>
     let params = new URLSearchParams(document.location.search.substring(1));

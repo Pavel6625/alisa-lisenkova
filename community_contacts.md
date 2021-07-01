@@ -5,7 +5,7 @@ permalink: community_contacts
 ---
 [АА – Анонимные Алкоголики](https://aarussia.ru/)
 
-[АН – Анонимные Нароманы](https://na-msk.ru/)
+[АН – Анонимные Наркоманы](https://na-msk.ru/)
 
 [АЛАНОН – Родственники алкоголиков](https://al-anon.org.ru/)
 
