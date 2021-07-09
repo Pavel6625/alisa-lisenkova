@@ -58,3 +58,14 @@ title: Эпизод 9 – Переход
 
 Такси везёт меня по ночному лесу, дорога впереди такая неясная. Бесконечная, освещенная дальним светом, утомляющая, изматывающая, удивительная, неизвестно куда ведущая, непонятно кем и зачем спроектированная, любимая, неумолимая.  
 Моя прекрасная дорога.
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/transition/8"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/transition/10">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>

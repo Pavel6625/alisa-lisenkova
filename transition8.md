@@ -50,3 +50,14 @@ title: Эпизод 8 – Переход
 Одна из которых Дом.  
 Я закончила последнее занятие с ним, вышла под небо и закурила.  
 Я посмотрела вверх и сказала ей: "Спасибо".
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/transition/7"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/transition/9">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>

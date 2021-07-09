@@ -60,3 +60,14 @@ title: Эпизод 5 – Переход
 А всё что я делаю пока – это просто подготовка.  
 А что делать дальше, мне скажут, когда придет время.  
 Сегодня достаточно просто прожить, и этого вполне довольно.
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/transition/4"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/transition/6">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>

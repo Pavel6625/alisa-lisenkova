@@ -49,3 +49,14 @@ title: Эпизод 7 – Переход
 А пока я могу просто выслушать неповторимый ритм, в котором живет и дышит её маленький крестец. Я могу приезжать к ней раз в неделю и научить ее расслабляющему комплексу. Я могу сказать ей: "Знаешь, я начала ходить к психологу на личную терапию, и мне это помогает, хочешь дам тебе номер?"  
 Но я не могу сказать ей: "Когда-нибудь я буду советовать пациентам твой номер".  
 Не поверит.
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/transition/6"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/transition/8">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>

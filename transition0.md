@@ -54,3 +54,14 @@ title: Вступление – Переход
 – "Только ты одна на все это согласилась".  
 – А что это значит?  
 – Точно не знаю, но мне это помогает.
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item disabled">
+      <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/transition/1">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>

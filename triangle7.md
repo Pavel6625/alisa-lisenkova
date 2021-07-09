@@ -369,3 +369,14 @@ title: Часть вторая – Выход из треугольника
 Тебе было 33. Твоя последняя эсэмэска была вот такой:
 
 > За пределами представлений о правильных и неправильных действиях есть поле. Я встречу тебя там.
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/triangle/6"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/triangle/8">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>

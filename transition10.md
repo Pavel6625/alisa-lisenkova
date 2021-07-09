@@ -47,3 +47,14 @@ title: Эпизод 10 – Переход
 Я ответила: "Ты знаешь, мне вообще-то страшно. На той неделе по всей Карелии прошёлся торнадо. Огромные леса выкосил как бритва. Почти весь Карельский перешеек без электричества, на этой неделе обещали, что всё может повториться".  
 Он усмехнулся и ответил: "Конечно, я знаю".  
 Конечно же, он знал.
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/transition/9"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/transition/11">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>

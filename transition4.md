@@ -77,3 +77,14 @@ title: Эпизод 4 – Переход
 А кто-то из них подойдет к директору нашего цирка и спросит: "Чем вам можно помочь?"  
 А сверху надо всем этим светила моя моя недопонятая мною звезда. Я вышла во двор, закурила, посмотрела наверх и сказала ей:  
 – Спасибо тебе большое.
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/transition/3"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/transition/5">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>

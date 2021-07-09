@@ -92,3 +92,14 @@ title: Эпизод 2 – Переход
 Тогда я просто сжималась, стискивала кулаки и шла дальше.  
 Не знаю, откуда были силы.  
 Но теперь все по другому, и это уже совсем другая история.
+
+<nav aria-label="pagination">
+  <ul class="pagination justify-content-center">
+    <li class="page-item">
+      <a class="page-link" href="/transition/1"><i class="bi bi-arrow-left"></i> Назад</a>
+    </li>
+    <li class="page-item">
+      <a class="page-link" href="/transition/3">Вперёд <i class="bi bi-arrow-right"></i></a>
+    </li>
+  </ul>
+</nav>
