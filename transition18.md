@@ -1,6 +1,7 @@
 ---
 permalink: /transition/18
-title: Эпизод 18 – Переход
+title: Переход
+description: Эпизод 18
 ---
 {% assign navigation  = site.data.transition_navigation %}
 {% include book.html %}

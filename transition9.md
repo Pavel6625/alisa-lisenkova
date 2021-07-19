@@ -1,6 +1,7 @@
 ---
 permalink: /transition/9
-title: Эпизод 9 – Переход
+title: Переход
+description: Эпизод 9
 ---
 {% assign navigation  = site.data.transition_navigation %}
 {% include book.html %}

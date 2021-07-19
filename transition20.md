@@ -1,6 +1,7 @@
 ---
 permalink: /transition/20
-title: Эпизод 20. Заключительный – Переход
+title: Переход
+description: Эпизод 20. Заключительный
 ---
 {% assign navigation  = site.data.transition_navigation %}
 {% include book.html %}
