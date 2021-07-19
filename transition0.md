@@ -1,8 +1,9 @@
 ---
 permalink: /transition/0
-title: Вступление – Переход
+title: Переход
+description: Вступление
 ---
-{% assign navigation  = site.data.transition_navigation %}
+{% assign navigation = site.data.transition_navigation %}
 {% include book.html %}
 
 *24.03.2020*

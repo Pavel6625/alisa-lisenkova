@@ -1,6 +1,7 @@
 ---
 permalink: /triangle/8
-title: После – Выход из треугольника
+title: Выход из треугольника
+description: После
 ---
 {% assign navigation  = site.data.triangle_navigation %}
 {% include book.html %}

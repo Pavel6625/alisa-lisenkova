@@ -1,6 +1,7 @@
 ---
 permalink: /triangle/6
-title: Ришикеш – Выход из треугольника
+title: Выход из треугольника
+description: Ришикеш
 ---
 {% assign navigation  = site.data.triangle_navigation %}
 {% include book.html %}

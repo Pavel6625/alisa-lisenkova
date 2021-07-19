@@ -1,6 +1,7 @@
 ---
 permalink: /triangle/9
-title: Эпиграф – Выход из треугольника
+title: Выход из треугольника
+description: Эпиграф
 ---
 {% assign navigation  = site.data.triangle_navigation %}
 {% include book.html %}

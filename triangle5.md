@@ -1,6 +1,7 @@
 ---
 permalink: /triangle/5
-title: Москва. Мерилин Мюррей – Выход из треугольника
+title: Выход из треугольника
+description: Москва. Мерилин Мюррей
 ---
 {% assign navigation  = site.data.triangle_navigation %}
 {% include book.html %}

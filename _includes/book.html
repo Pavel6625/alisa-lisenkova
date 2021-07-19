@@ -1,7 +1,20 @@
-<ul class="nav flex-column">
-  {% for item in navigation %}
-  <li class="nav-item">
-    <a class="nav-link {% if page.url == item.link %}active" aria-current="page"{% else %}"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
-  </li>
-  {% endfor %}
-</ul>
+<div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        Оглавление
+      </button>
+    </h2>
+    <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+      <div class="accordion-body">
+        <ul class="nav flex-column text-center">
+          {% for item in navigation %}
+          <li class="nav-item">
+            <a class="nav-link {% if page.url == item.link %}active" aria-current="page"{% else %}"{% endif %} href="{{ item.link }}">{{ item.name }}</a>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>

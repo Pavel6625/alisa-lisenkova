@@ -1,6 +1,7 @@
 ---
 permalink: /triangle/2
-title: Не уходи из сна моего – Выход из треугольника
+title: Выход из треугольника
+description: Не уходи из сна моего
 ---
 {% assign navigation  = site.data.triangle_navigation %}
 {% include book.html %}

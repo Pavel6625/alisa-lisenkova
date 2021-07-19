@@ -1,6 +1,7 @@
 ---
 permalink: /triangle/1
-title: Часть первая – Выход из треугольника
+title: Выход из треугольника
+description: Часть первая
 ---
 {% assign navigation  = site.data.triangle_navigation %}
 {% include book.html %}
@@ -104,8 +105,8 @@ title: Часть первая – Выход из треугольника
 
 <nav aria-label="pagination">
   <ul class="pagination justify-content-center">
-    <li class="page-item disabled">
-      <a class="page-link" href="#" tabindex="-1" aria-disabled="true"><i class="bi bi-arrow-left"></i> Назад</a>
+    <li class="page-item">
+      <a class="page-link" href="/triangle/0"><i class="bi bi-arrow-left"></i> Назад</a>
     </li>
     <li class="page-item">
       <a class="page-link" href="/triangle/2">Вперёд <i class="bi bi-arrow-right"></i></a>

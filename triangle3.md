@@ -1,6 +1,7 @@
 ---
 permalink: /triangle/3
-title: В Рождество все немного волхвы – Выход из треугольника
+title: Выход из треугольника
+description: В Рождество все немного волхвы
 ---
 {% assign navigation  = site.data.triangle_navigation %}
 {% include book.html %}

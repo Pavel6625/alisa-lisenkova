@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Контакты сообществ
+title: Контакты анонимных сообществ
 permalink: community_contacts
 ---
 [АА – Анонимные Алкоголики](https://aarussia.ru/)

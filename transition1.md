@@ -2,7 +2,7 @@
 permalink: /transition/1
 title: Эпизод 1 – Переход
 ---
-{% assign navigation  = site.data.transition_navigation %}
+{% assign navigation = site.data.transition_navigation %}
 {% include book.html %}
 
 *30.03.2020*

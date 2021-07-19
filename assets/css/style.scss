@@ -17,18 +17,18 @@ body {
 
 .btn {
     color: black;
-    background-color: #9aade0;
+    background-color: #9ABBD9;
     margin-top: 1rem;
 }
 
 .btn:hover {
     color: white;
-    background-color: #1e6bb8;
+    background-color: #0367A6;
 }
 
 .form-check-input:checked {
-    background-color: #9aade0;
-    border-color: #9aade0;
+    background-color: #9ABBD9;
+    border-color: #9ABBD9;
 }
 
 .test-results {
@@ -37,59 +37,76 @@ body {
 }
 
 .page-header {
-    background-image: linear-gradient(120deg, #d0d7dd, #9aade0);
+    background-image: linear-gradient(120deg, #C9DFF2, #9ABBD9);
     color: black;
+}
+
+.page-header .container {
+    position: absolute;
+    top: 55%;
+    right: 5%;
+}
+
+.project-name span, .project-tagline span {
+    background-color: rgba($color: #ffffff, $alpha: 0.5);
+}
+
+@media screen and (max-width: 42em) {
+    .page-header .container {
+        position: absolute;
+        top: 70%;
+        right: 3%;
+    }    
+    nav .main-content {
+        padding: 1rem 1rem;
+    }    
+}
+
+@media screen and (min-width: 64em) {
+    nav .main-content {
+        padding: 1rem 6rem;
+    }    
+}
+
+@media screen and (min-width: 42em) and (max-width: 64em) {
+    nav .main-content {
+        padding: 1rem 4rem;
+    }    
 }
 
 #jumbotron {
     height: 90vh;
-    background-color: #d0d7dd;
+    background-color: #C9DFF2;
     background-image: url(/assets/img/alisa.jpg);
     background-position: center;
     background-size: cover;
     text-align: right;
 }
 
-@media screen and (min-width: 64em) {
-    #jumbotron {
-        padding: 15rem;
-    }
-}    
-
-@media screen and (max-width: 42em) {
-    #jumbotron {
-        background-position: left;
-    }
-}
-
 .navbar {
     padding: unset;
 }
 
-nav .main-content {
-    padding: 1rem 4rem;
-}
-
 .dropdown-item.active, .dropdown-item:active {
-    background-color: #1e6bb8;
+    background-color: #0367A6;
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    color: #d56a29;
+    color: #3D7340;
 }
 
 .orange-link, .orange-link:hover {
-    color: #d56a29;
-}
-
-.flex-column {
-    margin-bottom: 1rem;
-}
-
-.nav-item {
-    text-align: center;
+    color: #3D7340;
 }
 
 .nav-link {
-    color: #1e6bb8;
+    color: #0367A6;
+}
+
+.accordion {
+    margin-bottom: 1rem;
+}
+
+h2.accordion-header {
+    margin-bottom: unset;
 }

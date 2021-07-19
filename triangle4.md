@@ -1,6 +1,7 @@
 ---
 permalink: /triangle/4
-title: Желания мои – Священный Храм – Выход из треугольника
+title: Выход из треугольника
+description: Желания мои – Священный Храм
 ---
 {% assign navigation  = site.data.triangle_navigation %}
 {% include book.html %}
