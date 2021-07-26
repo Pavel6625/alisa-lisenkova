@@ -51,6 +51,10 @@ body {
     background-color: rgba($color: #ffffff, $alpha: 0.5);
 }
 
+.project-tagline span {
+    font-size: larger;
+}
+
 @media screen and (max-width: 42em) {
     .page-header .container {
         position: absolute;
