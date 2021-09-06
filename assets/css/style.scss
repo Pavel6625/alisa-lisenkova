@@ -7,6 +7,15 @@ body {
     font-family: 'Alegreya', serif;
 }
 
+a {
+    color: #D4AF37;
+}
+
+a:hover {
+    color: goldenrod;
+    text-decoration: underline;
+}
+
 .main-content input:first-child {
     margin-top: revert;
 }
@@ -17,18 +26,18 @@ body {
 
 .btn {
     color: black;
-    background-color: #9ABBD9;
+    background-color: wheat;
     margin-top: 1rem;
 }
 
 .btn:hover {
     color: white;
-    background-color: #0367A6;
+    background-color: goldenrod;
 }
 
 .form-check-input:checked {
-    background-color: #9ABBD9;
-    border-color: #9ABBD9;
+    background-color: wheat;
+    border-color: wheat;
 }
 
 .test-results {
@@ -37,7 +46,7 @@ body {
 }
 
 .page-header {
-    background-image: linear-gradient(120deg, #C9DFF2, #9ABBD9);
+    background-image: linear-gradient(120deg, wheat, goldenrod);
     color: black;
 }
 
@@ -80,8 +89,8 @@ body {
 
 #jumbotron {
     height: 90vh;
-    background-color: #C9DFF2;
-    background-image: url(/assets/img/alisa.jpg);
+    background-color: wheat;
+    background-image: url(/assets/img/alisa_gong.jpg);
     background-position: center;
     background-size: cover;
     text-align: right;
@@ -92,19 +101,19 @@ body {
 }
 
 .dropdown-item.active, .dropdown-item:active {
-    background-color: #0367A6;
+    background-color: goldenrod;
 }
 
 .main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    color: #3D7340;
+    color: #c7753a;
 }
 
 .orange-link, .orange-link:hover {
-    color: #3D7340;
+    color: gold;
 }
 
 .nav-link {
-    color: #0367A6;
+    color: goldenrod;
 }
 
 .accordion {
