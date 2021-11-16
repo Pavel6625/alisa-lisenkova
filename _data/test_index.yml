@@ -1,14 +1,17 @@
 - title: Тест на сексуальную зависимость
   action: as
   community: Анонимные Сексоголики
+  link: https://sa12.org/novichkam/20-voprosov/
 
 - title: Тест на зависимость от отношений и любви
   action: laa
   community: ЛАА
+  link: http://laarus.ru/test-na-opredelenie-ljubovnoj-zavisim/
 
 - title: Тест на зависимость от работы
   action: aw
   community: Анонимные Трудоголики
+  link: https://workaholics-anonymous.ru/newcomers/
 
 - title: Тест на созависимость
   action: coda
@@ -17,14 +20,17 @@
 - title: Тест на пищевую зависимость
   action: af
   community: Анонимные Переедающие
+  link: https://overeaters.ru/podxodit-li-vam-ap/
 
 - title: Тест на игровую зависимость
   action: ag
   community: Анонимные Игроки
+  link: http://gamblersanonymous.ru/index.php?option=com_content&task=view&id=47&Itemid=143
 
 - title: Тест на синдром последствий воспитания в дисфункциональной семье
   action: vda
   community: ВДА
+  link: https://vdamoscow.ru/about-signs/
 
 - title: Тест на наличие последствий насилия
   action: ada

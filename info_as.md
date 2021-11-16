@@ -25,11 +25,11 @@ title: Помощь анонимным сексоголикам
 <script>
     let params = new URLSearchParams(document.location.search.substring(1));
     let count = parseInt(params.get("count"), 10);
-    if (count > 0 && count <= 6) {
+    if (count > 0 && count <= 5) {
         $("#low").show();
-    } else if (count > 6 && count <= 10) {
+    } else if (count > 5 && count <= 10) {
         $("#medium").show();
-    } else if (count > 6 && count <= 20) {
+    } else if (count > 10) {
         $("#high").show();
     }
 </script>

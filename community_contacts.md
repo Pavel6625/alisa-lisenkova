@@ -17,13 +17,15 @@ permalink: community_contacts
 
 [АЭ – Анонимные Эмоционалы](https://psihdocs.ru/anonimnie-emocionali-vvedenie-v-programmu-dvenadcati-shagov-an.html)
 
+[АИ – Анонимные Игроки Москвы](http://gamblersanonymous.ru/)
+
 [АКИ – Анонимные Компьютерные Игроки](https://www.cgaa.info/ru/cgaa-%d1%80%d1%83%d1%81%d1%81%d0%ba%d0%b8%d0%b9/)
 
 [И-АНОН – Родственники игроков](http://gam-anon.ru/)
 
 [АП – Анонимные Переедающие](https://overeaters.ru/)
 
-[АС – Анонимных Сексоголиков](https://sa12.org/)
+[АС – Анонимные Сексоголики](https://sa12.org/)
 
 [АТ – Анонимные Трудоголики](https://workaholics-anonymous.ru/)
 
