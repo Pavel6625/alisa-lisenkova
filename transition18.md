@@ -83,8 +83,8 @@ description: Эпизод 18
 Дать Стойкость через техники хатхи и Благодать через техники Кундалини.  
 Сегодня я благодарна всей команде этого проекта.  
 Желающие купить школу пишите мне.  
-Два модуля, 24 урока - 10 000.  
-Третий модуль учительский, он не продается. Это для тех, кто учился у меня преподаванию.
+Два модуля, 24 урока – 10 000.  
+Третий модуль учительский, он не продаётся. Это для тех, кто учился у меня преподаванию.
 
 <div class="ratio ratio-16x9">
     <iframe width="560" height="315" src="https://www.youtube.com/embed/R7bH4OU0s4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
