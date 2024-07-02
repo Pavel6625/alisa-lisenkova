@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/2
 title: Переход
 description: Эпизод 2

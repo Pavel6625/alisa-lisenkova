@@ -1,0 +1,10 @@
+<nav aria-label="pagination">
+    <ul class="pagination justify-content-center">
+        <li class="page-item{% unless prev_page_link %} disabled{% endunless %}">
+            <a class="page-link" href="{{ prev_page_link }}"><i class="bi bi-arrow-left"></i> Назад</a>
+        </li>
+        <li class="page-item{% unless next_page_link %} disabled{% endunless %}">
+            <a class="page-link" href="{{ next_page_link }}">Вперёд <i class="bi bi-arrow-right"></i></a>
+        </li>
+    </ul>
+</nav>

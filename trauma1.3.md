@@ -1,5 +1,6 @@
 ---
-permalink: /trauma/3
+layout: default
+permalink: /trauma/1/3
 title: Гнездо травмы
 description: Эпизод 3
 ---
@@ -26,13 +27,6 @@ description: Эпизод 3
 
 Спасибо вам за то, что, несмотря на весь ужас, который вы несли в себе, вы отваживались жить и пробовали любить так, как вы умели.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/2"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/4">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/2" %}
+{% assign next_page_link = "/trauma/1/4" %}
+{% include pagination.html %}

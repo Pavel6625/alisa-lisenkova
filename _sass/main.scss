@@ -1,0 +1,13 @@
+
+$primary: goldenrod;
+$secondary: gold;
+$light: wheat;
+
+$theme-colors: (
+  "primary": $primary,
+  "secondary": $secondary,
+  "light": $light
+);
+
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+@import "./assets/stylesheets/_bootstrap.scss";

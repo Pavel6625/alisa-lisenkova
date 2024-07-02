@@ -1,7 +1,7 @@
 ---
-permalink: /trauma/7
+permalink: /trauma/1/8
 title: Гнездо травмы
-description: Эпизод 7
+description: Эпизод 8
 ---
 {% assign navigation  = site.data.trauma_navigation %}
 {% include book.html %}

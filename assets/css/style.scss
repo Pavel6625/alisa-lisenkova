@@ -1,43 +1,18 @@
 ---
 ---
 
-@import "jekyll-theme-cayman";
+@import "main.scss";
 
 body {
     font-family: 'Alegreya', serif;
 }
 
-a {
-    color: #D4AF37;
-}
-
-a:hover {
-    color: goldenrod;
-    text-decoration: underline;
-}
-
-.main-content input:first-child {
-    margin-top: revert;
+#content {
+    max-width: 720px;
 }
 
 #test-btn {
     margin-top: 1rem;
-}
-
-.btn {
-    color: black;
-    background-color: wheat;
-    margin-top: 1rem;
-}
-
-.btn:hover {
-    color: white;
-    background-color: goldenrod;
-}
-
-.form-check-input:checked {
-    background-color: wheat;
-    border-color: wheat;
 }
 
 .test-results {
@@ -94,26 +69,6 @@ a:hover {
     background-position: center;
     background-size: cover;
     text-align: right;
-}
-
-.navbar {
-    padding: unset;
-}
-
-.dropdown-item.active, .dropdown-item:active {
-    background-color: goldenrod;
-}
-
-.main-content h1, .main-content h2, .main-content h3, .main-content h4, .main-content h5, .main-content h6 {
-    color: #c7753a;
-}
-
-.orange-link, .orange-link:hover {
-    color: gold;
-}
-
-.nav-link {
-    color: goldenrod;
 }
 
 .accordion {

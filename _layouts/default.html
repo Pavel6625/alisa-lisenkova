@@ -1,84 +1,35 @@
 <!DOCTYPE html>
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
-
-    {% if site.google_analytics %}
-      <script async src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics }}"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', '{{ site.google_analytics }}');
-      </script>
-    {% endif %}
-    <meta charset="UTF-8">
-
-{% seo %}
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="theme-color" content="#157878">
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-    <meta name="yandex-verification" content="6a3b4999bf0640c8" />
-    <meta name="google-site-verification" content="AlzUYD_jDrTK4lj2hd_ApV04kNl677EB1U2B6Xxexn8" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alegreya&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+    {% include head.html %}
   </head>
   <body>
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript" >
-  (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-  m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
-  (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+    <!-- Yandex.Metrika counter -->
+    <script type="text/javascript" >
+      (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+      m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+      (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
 
-  ym(83357191, "init", {
-       clickmap:true,
-       trackLinks:true,
-       accurateTrackBounce:true,
-       webvisor:true
-  });
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/83357191" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
+      ym(83357191, "init", {
+          clickmap:true,
+          trackLinks:true,
+          accurateTrackBounce:true,
+          webvisor:true
+      });
+    </script>
+    <noscript><div><img src="https://mc.yandex.ru/watch/83357191" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+    <!-- /Yandex.Metrika counter -->
     <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid main-content">
-        <a class="navbar-brand" href="/">{{ site.title }}</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
-          <ul class="navbar-nav">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Книги
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="/triangle/0">Выход из треугольника</a></li>
-                <li><a class="dropdown-item" href="/transition/0">Переход</a></li>
-                <li><a class="dropdown-item" href="/trauma/1">Гнездо травмы</a></li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/community_contacts">Анонимные сообщества</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="/contacts">Контакты</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      {% if page.description %}<h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>{% endif %}
+    
+    {% include navigation.html %}
+    
+    <header class="page-header text-center py-5 mb-3" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      {% if page.description %}<h2 class="project-tagline">{{ page.description | default: site.description }}</h2>{% endif %}
     </header>
 
-    <main id="content" class="main-content" role="main">
+    <main id="content" class="container-md" role="main">
       {{ content }}
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-  </body>
 </html>

@@ -1,7 +1,7 @@
 ---
-permalink: /trauma/9
+permalink: /trauma/1/10
 title: Гнездо травмы
-description: Эпизод 9
+description: Эпизод 10
 ---
 {% assign navigation  = site.data.trauma_navigation %}
 {% include book.html %}
@@ -49,13 +49,3 @@ description: Эпизод 9
 И всё же что-то тут не сходилось. Как будто чувство ответственности за её жизнь и здоровье было ещё раньше. Но почему? Если я хочу быть с собой честной, мне нужно это понять. Если я хочу вытащить её оттуда, мне нужно понять – откуда.  
 Тогда я достала из кармана сотовый и набрала мою маму.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/8"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/10">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>

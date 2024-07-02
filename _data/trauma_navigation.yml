@@ -1,20 +1,24 @@
 - name: Часть 1. Яйцо травмы. Эпизод 1
-  link: /trauma/1
+  link: /trauma/1/1
 - name: Эпизод 2
-  link: /trauma/2
+  link: /trauma/1/2
 - name: Эпизод 3
-  link: /trauma/3
+  link: /trauma/1/3
 - name: Эпизод 4
-  link: /trauma/4
+  link: /trauma/1/4
 - name: Эпизод 5
-  link: /trauma/5
+  link: /trauma/1/5
 - name: Эпизод 6
-  link: /trauma/6
+  link: /trauma/1/6
 - name: Эпизод 7
-  link: /trauma/7
+  link: /trauma/1/7
 - name: Эпизод 8
-  link: /trauma/8
+  link: /trauma/1/8
 - name: Эпизод 9
-  link: /trauma/9
+  link: /trauma/1/9
 - name: Эпизод 10
-  link: /trauma/10
+  link: /trauma/1/10
+- name: Часть 2. Море боли. Эпизод 1
+  link: /trauma/2/1
+- name: Эпизод 2. Отрицание
+  link: /trauma/2/2

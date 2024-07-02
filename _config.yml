@@ -22,12 +22,14 @@ title: Алиса Л.
 description: >- # this means to ignore newlines until "baseurl:"
   Любви и счастья снаружи нет. Ты – любовь. Ты – счастье
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "http://alisal.ru" # the base hostname & protocol for your site, e.g. http://example.com
+lang: ru
 
-# Build settings
-theme: jekyll-theme-cayman
+sass:
+  load_paths: ["C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/bootstrap-5.1.3", "/github/workspace/vendor/bundle/ruby/2.7.0/gems/bootstrap-5.1.3"]
+
+plugins:
+  - jekyll-seo-tag
 
 # Exclude from processing.
 # The following items will not be processed, by default.
