@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /trauma/2/1
-title: Гнездо травмы
+title: Трансформация родовой травмы
 description: МОРЕ БОЛИ. Эпизод 1 - ОТРИЦАНИЕ
 ---
 {% assign navigation  = site.data.trauma_navigation %}

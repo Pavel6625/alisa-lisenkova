@@ -1,8 +1,8 @@
 ---
 layout: default
 permalink: /trauma/2/8
-title: Гнездо травмы
-description: МОРЕ БОЛИ. Эпизод 7 - Упрямый эгоцентричный ребенок
+title: Трансформация родовой травмы
+description: МОРЕ БОЛИ. Эпизод 8 - Упрямый эгоцентричный ребенок
 ---
 {% assign navigation  = site.data.trauma_navigation %}
 {% include book.html %}

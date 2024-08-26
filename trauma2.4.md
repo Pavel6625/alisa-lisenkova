@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /trauma/2/4
-title: Гнездо травмы
+title: Трансформация родовой травмы
 description: МОРЕ БОЛИ. Эпизод 4 - НА ЗУБАХ
 ---
 {% assign navigation  = site.data.trauma_navigation %}

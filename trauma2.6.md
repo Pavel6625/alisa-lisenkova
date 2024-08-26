@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /trauma/2/6
-title: Гнездо травмы
+title: Трансформация родовой травмы
 description: МОРЕ БОЛИ. Эпизод 6 - Хаос из прошлого
 ---
 {% assign navigation  = site.data.trauma_navigation %}
