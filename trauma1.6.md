@@ -19,13 +19,6 @@ description: Эпизод 6
 
 Я посмотрела на 17-и летнюю девочку с хрупкими детскими плечами и на потерянного героя с рыжей бородой. "Да, да, подходят" – сказала я и сделала шаг. Сделала этот чёртов шаг и полетела в тёмную и неумолимую кроличью нору. Беспечно сделала этот шаг, для того чтобы надолго забыть кто я и откуда. Для того, чтобы храбро утратить связь со своей истинной сутью. Для того, чтобы сегодня рассказать тебе всё это. Потому что если ты сейчас это читаешь – значит, возможно, мы с тобой когда то об этом договорились.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/4"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/6">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/5" %}
+{% assign next_page_link = "/trauma/1/7" %}
+{% include pagination.html %}

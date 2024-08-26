@@ -48,13 +48,6 @@ description: Эпизод 8
 Откуда взялись клинические признаки рака крови и куда они делись, так и не понятно. Тела таких, как я, живут по своим собственным правилам, иногда необъяснимым традиционной наукой. Короче я сперва загадочно заболела, а потом чудесно исцелилась.  
 Одно имя я носила в социуме, другое оставила для себя.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/6"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/8">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/7" %}
+{% assign next_page_link = "/trauma/1/9" %}
+{% include pagination.html %}

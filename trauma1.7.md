@@ -40,13 +40,6 @@ description: Эпизод 7
 
 Так получилось, что мы с дядей родились примерно в одно и тоже время.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/5"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/7">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/6" %}
+{% assign next_page_link = "/trauma/1/8" %}
+{% include pagination.html %}

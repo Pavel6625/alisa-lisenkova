@@ -64,13 +64,6 @@ description: Эпизод 9
 
 Я стояла, прижав банку с улитками к груди, и понимала, что запомню этот момент навсегда. В тот год, мне исполнилось пять, а это значит, что мое детство безвозвратно закончилось.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/7"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/9">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/8" %}
+{% assign next_page_link = "/trauma/1/10" %}
+{% include pagination.html %}
