@@ -47,14 +47,6 @@ description: МОРЕ БОЛИ. Эпизод 4 - НА ЗУБАХ
 Естественный ребенок, разнося собой подполье, вырвется наружу под щелчки звонких кастаньет, изумленный контролер на секунду разомкнет зубы и сразу же полетит на дно.
 Кадр за кадром я вижу последние секунды своей наивной Алисы, даже не подозревающей о том, какое невероятно красивое и падение в пропасть любви может быть приготовлено для становления маленького девичьего сердца на стезю безусловного служения человечеству.
 
+{% assign prev_page_link = "/trauma/2/3" %}
+{% assign next_page_link = "/trauma/2/5" %}
 {% include pagination.html %}
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/14"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/16">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>

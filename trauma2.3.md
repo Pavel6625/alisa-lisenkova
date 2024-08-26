@@ -43,13 +43,6 @@ description: МОРЕ БОЛИ. Эпизод 3 - Все оттенки конт�
 
 Как знать, возможно, без этой поддержки мой контроль просто одержал бы во мне верх над всеми остальными моими частями, и я никогда не смогла бы стать той, кем создана быть.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/14"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/16">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/2/2" %}
+{% assign next_page_link = "/trauma/2/4" %}
+{% include pagination.html %}

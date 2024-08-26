@@ -41,13 +41,6 @@ description: МОРЕ БОЛИ. Эпизод 2 - ОТРИЦАНИЕ
 Чтобы он освободил её от ответственности за жизнь и здоровье всех тех, за кого она никак не могла ответить.  
 Чтобы он дал ей право на слабость, уязвимость и научил доверию. И научил, как рассказывать подруге про свою заморочку.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/15"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/17">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/2/1" %}
+{% assign next_page_link = "/trauma/2/3" %}
+{% include pagination.html %}

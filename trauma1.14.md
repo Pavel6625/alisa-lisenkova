@@ -32,13 +32,6 @@ description: Эпизод 14
 
 Там и там я испытывала сильнейшую потребность закрыть собой младших, чтобы они не пострадали. И защитить маму. А ещё я хотела сохранить доверие к миру взрослых в целом и к мужскому принципу в частности. С тем и с тем потерпела полное фиаско.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/12"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/14">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/13" %}
+{% assign next_page_link = "/trauma/1/15" %}
+{% include pagination.html %}

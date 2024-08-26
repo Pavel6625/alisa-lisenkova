@@ -17,13 +17,6 @@ description: МОРЕ БОЛИ. Эпизод 1 - ОТРИЦАНИЕ
 
 Если глаза застилает отрицание, мы можем утратить чуткость таких важных радаров, как совесть, самосознание и способность чувствовать.Мы рискуем совершенно разучиться отличать истину, и до конца земного воплощения забыть, что именно истина на самом деле является нашей настоящей сутью.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/14"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/16">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/15" %}
+{% assign next_page_link = "/trauma/2/2" %}
+{% include pagination.html %}

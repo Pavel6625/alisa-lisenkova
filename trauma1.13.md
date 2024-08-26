@@ -30,13 +30,6 @@ description: Эпизод 13
 
 Потом мы уехали из той деревни, и мой кошмар закончился только для того, чтобы вернуться обратно с другим именем и лицом. Потому что несданные экзамены приходится пересдавать. И пока желчь не трансформирована в золото, мы достаём один и тот же билет снова и снова.
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/11"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/13">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/12" %}
+{% assign next_page_link = "/trauma/1/14" %}
+{% include pagination.html %}

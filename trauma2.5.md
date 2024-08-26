@@ -71,14 +71,6 @@ description: МОРЕ БОЛИ. Эпизод 5 - ИЗНАЧАЛЬНЫЙ ЕСТЕ
 Это он ничего больше не хочет в этой жизни, кроме любви, любви, любви.
 И пока он затаптывает во тьму подсознания Контролера и Плачущего никакой взрослый из него не получится.
 
+{% assign prev_page_link = "/trauma/2/4" %}
+{% assign next_page_link = "/trauma/2/6" %}
 {% include pagination.html %}
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/14"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/16">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
