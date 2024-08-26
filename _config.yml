@@ -26,7 +26,7 @@ url: "http://alisal.ru" # the base hostname & protocol for your site, e.g. http:
 lang: ru
 
 sass:
-  load_paths: ["C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/bootstrap-5.1.3", "/github/workspace/vendor/bundle/ruby/3.1.0/gems/bootstrap-5.1.3"]
+  load_paths: ["C:/Ruby27-x64/lib/ruby/gems/2.7.0/gems/bootstrap-5.1.3", "./vendor/bundle/ruby/2.7.0/gems/bootstrap-5.1.3"]
 
 plugins:
   - jekyll-seo-tag

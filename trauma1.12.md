@@ -69,13 +69,6 @@ description: Эпизод 12
 
 "Мы не то, что сделали с нами, мы то, что мы сделали с тем, что с нами сделали".
 
-<nav aria-label="pagination">
-  <ul class="pagination justify-content-center">
-    <li class="page-item">
-      <a class="page-link" href="/trauma/10"><i class="bi bi-arrow-left"></i> Назад</a>
-    </li>
-    <li class="page-item">
-      <a class="page-link" href="/trauma/12">Вперёд <i class="bi bi-arrow-right"></i></a>
-    </li>
-  </ul>
-</nav>
+{% assign prev_page_link = "/trauma/1/11" %}
+{% assign next_page_link = "/trauma/1/13" %}
+{% include pagination.html %}
