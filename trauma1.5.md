@@ -35,4 +35,6 @@ description: Эпизод 5
 
 А сперва – о моём героическом папе.
 
+{% assign prev_page_link = "/trauma/1/4" %}
+{% assign next_page_link = "/trauma/1/6" %}
 {% include pagination.html %}

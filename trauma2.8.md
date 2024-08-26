@@ -1,5 +1,5 @@
 ---
-permalink: /trauma/2/4
+permalink: /trauma/2/8
 title: Гнездо травмы
 description: МОРЕ БОЛИ. Эпизод 7 - Упрямый эгоцентричный ребенок
 ---
