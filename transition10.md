@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/10
 title: Переход
 description: Эпизод 10

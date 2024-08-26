@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/4
 title: Выход из треугольника
 description: Желания мои – Священный Храм

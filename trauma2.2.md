@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/2/2
 title: Гнездо травмы
 description: МОРЕ БОЛИ. Эпизод 2 - ОТРИЦАНИЕ

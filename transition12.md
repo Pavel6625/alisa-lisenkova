@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/12
 title: Переход
 description: Эпизод 12

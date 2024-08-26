@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/1/10
 title: Гнездо травмы
 description: Эпизод 10

@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/2
 title: Выход из треугольника
 description: Не уходи из сна моего

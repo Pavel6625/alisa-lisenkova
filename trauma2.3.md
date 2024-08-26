@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/2/3
 title: Гнездо травмы
 description: МОРЕ БОЛИ. Эпизод 3 - Все оттенки контроля

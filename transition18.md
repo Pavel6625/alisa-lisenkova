@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/18
 title: Переход
 description: Эпизод 18

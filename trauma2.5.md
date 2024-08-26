@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/2/5
 title: Гнездо травмы
 description: МОРЕ БОЛИ. Эпизод 5 - ИЗНАЧАЛЬНЫЙ ЕСТЕСТВЕННЫЙ РЕБЕНОК

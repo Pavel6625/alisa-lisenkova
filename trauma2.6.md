@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/2/6
 title: Гнездо травмы
 description: МОРЕ БОЛИ. Эпизод 6 - Хаос из прошлого

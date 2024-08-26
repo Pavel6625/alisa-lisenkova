@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/6
 title: Переход
 description: Эпизод 6

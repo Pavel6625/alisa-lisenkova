@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/3
 title: Выход из треугольника
 description: В Рождество все немного волхвы

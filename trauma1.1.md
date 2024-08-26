@@ -1,7 +1,7 @@
 ---
 layout: default
 permalink: /trauma/1/1
-title: Гнездо травмы
+title: Трансформация родовой травмы
 description: Эпизод 1
 ---
 {% assign navigation  = site.data.trauma_navigation %}

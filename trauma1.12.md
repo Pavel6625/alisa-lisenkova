@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/1/12
 title: Гнездо травмы
 description: Эпизод 12

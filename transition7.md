@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/7
 title: Переход
 description: Эпизод 7

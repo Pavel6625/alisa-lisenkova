@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/19
 title: Переход
 description: Эпизод 19

@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/7
 title: Выход из треугольника
 description: Часть вторая

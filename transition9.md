@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/9
 title: Переход
 description: Эпизод 9

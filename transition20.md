@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/20
 title: Переход
 description: Эпизод 20. Заключительный

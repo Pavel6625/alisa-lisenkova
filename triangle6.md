@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/6
 title: Выход из треугольника
 description: Ришикеш

@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/9
 title: Выход из треугольника
 description: Эпиграф

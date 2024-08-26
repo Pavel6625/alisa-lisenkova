@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/11
 title: Переход
 description: Эпизод 11

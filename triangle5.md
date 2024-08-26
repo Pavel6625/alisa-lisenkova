@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/5
 title: Выход из треугольника
 description: Москва. Мерилин Мюррей

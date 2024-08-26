@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/2/7
 title: Гнездо травмы
 description: МОРЕ БОЛИ. Эпизод 7 - Природа автоагрессии

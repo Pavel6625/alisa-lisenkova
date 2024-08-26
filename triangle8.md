@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/8
 title: Выход из треугольника
 description: После

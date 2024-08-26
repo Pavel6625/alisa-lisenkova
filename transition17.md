@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/17
 title: Переход
 description: Эпизод 17

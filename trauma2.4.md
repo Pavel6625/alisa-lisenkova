@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/2/4
 title: Гнездо травмы
 description: МОРЕ БОЛИ. Эпизод 4 - НА ЗУБАХ

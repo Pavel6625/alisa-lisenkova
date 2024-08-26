@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /trauma/2/9
 title: Гнездо травмы
 description: МОРЕ БОЛИ. Эпизод 9 - Здоровая уравновешенная личность

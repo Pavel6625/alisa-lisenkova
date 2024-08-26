@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/8
 title: Переход
 description: Эпизод 8

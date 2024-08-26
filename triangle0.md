@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /triangle/0
 title: Выход из треугольника
 description: Предисловие

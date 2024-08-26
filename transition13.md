@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: /transition/13
 title: Переход
 description: Эпизод 13
